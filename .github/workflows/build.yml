@@ -24,9 +24,9 @@ jobs:
     - name: Commit and push if changed
       run: |-
         git diff
-        git config --global user.email "laafilal@student.1337.ma"
-        git config --global user.name "laafilal"
-        git config --global credential.helper store
+        git config --global user.email "${{ secrets.GIT_USEREMAIL }}"
+        git config --global user.name "${{ secrets.GIT_USERNAME }}"
+        git config --global user.token "${{ secrets.GIT_CREDENTIALS }}"
         git add -A
         git commit -m "Codingame stats Updated" || exit 0
         git push
