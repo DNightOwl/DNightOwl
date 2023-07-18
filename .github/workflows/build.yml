@@ -26,6 +26,7 @@ jobs:
         git diff
         git config --global user.email "laafilal@student.1337.ma"
         git config --global user.name "laafilal"
+        git config --global credential.helper store
         git add -A
         git commit -m "Codingame stats Updated" || exit 0
         git push
