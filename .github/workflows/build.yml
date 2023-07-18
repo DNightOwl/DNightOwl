@@ -24,8 +24,8 @@ jobs:
     - name: Commit and push if changed
       run: |-
         git diff
-        git config user.email "${{ secrets.GIT_USEREMAIL }}"
-        git config user.name "${{ secrets.GIT_USERNAME }}"
+        git config --global user.email "laafilal@student.1337.ma"
+        git config --global user.name "laafilal"
         git add -A
         git commit -m "Codingame stats Updated" || exit 0
         git push
