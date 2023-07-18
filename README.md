@@ -6,8 +6,7 @@
 Codingame stats:
 
 <!-- Codingame starts -->
-Level: 14
-Rank: 20310
+Level: 14</br>Rank: 20310
 
 <!-- Codingame ends -->
 
