@@ -22,7 +22,7 @@ def fetch_codingame_stats():
     level = codingamer.level
     rank = codingamer.rank
     clash_of_code_rank = codingamer.get_clash_of_code_rank()
-    test = 'Level: {}\nRank: {}\n'.format(level,rank)   
+    test = 'Level: {}</br>Rank: {}\n'.format(level,rank)   
     return test
 
 # Execution the code
