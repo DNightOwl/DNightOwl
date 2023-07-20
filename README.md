@@ -12,8 +12,6 @@
 <!-- Codingame starts -->
 Level: 14</br>Rank: 20590
 
-<img src="https://komarev.com/ghpvc/?username=DNightOwl&style=flat-square&color=blue" alt=""/>
-
 <!-- Codingame ends -->
 
 
