@@ -19,7 +19,7 @@
 
 <img src="https://w7.pngwing.com/pngs/232/519/png-transparent-codingame-hd-logo.png" alt="Codingame logo" width="20"> Codingame stats:
 <!-- Codingame starts -->
-<hr><br>Level: 14</br>Rank: 37449
+<hr><br>Level: 14</br>Rank: 38093
 
 <!-- Codingame ends -->
 
