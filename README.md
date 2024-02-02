@@ -17,12 +17,6 @@
   </picture>
 </p>
 
-<img src="https://w7.pngwing.com/pngs/232/519/png-transparent-codingame-hd-logo.png" alt="Codingame logo" width="20"> Codingame stats:
-<!-- Codingame starts -->
-<hr><br>Level: 14</br>Rank: 41968
-
-<!-- Codingame ends -->
-
 
 <!--
 **DNightOwl/DNightOwl** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
