@@ -22,9 +22,23 @@ def fetch_codingame_stats():
     level = codingamer.level
     rank = codingamer.rank
     clash_of_code_rank = codingamer.get_clash_of_code_rank()
-    test = '<hr><br>'
-    test += 'Level: {}</br>Rank: {}\n'.format(level,rank)   
-    return test
+    #test = '<hr><br>'
+    #test += 'Level: {}</br>Rank: {}\n'.format(level,rank)   
+    svg = f'''
+    <svg xmlns="http://www.w3.org/2000/svg" width="250" height="40">
+        <rect width="250" height="40" fill="#222"/>
+        <text x="10" y="25" font-size="14" fill="#fff">Codingame: Level {level}, Rank {rank}</text>
+    </svg>
+    '''
+    return {
+        "statusCode": 200,
+        "headers": {
+            "Content-Type": "image/svg+xml",
+            "Cache-Control": "no-cache"
+        },
+        "body": svg
+    }
+    #return test
 
 # Execution the code
 if __name__ == '__main__':
@@ -34,4 +48,5 @@ if __name__ == '__main__':
     # Update entries
     rewritten_stats = replace_readme(readme, 'Codingame', stats)
     readme_path.open('w').write(rewritten_stats)
+
 
