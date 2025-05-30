@@ -1,5 +1,6 @@
 ### Hi there 👋
 
+![CodinGame Stats](https://coding-game-badge.vercel.app/api)
 
 <p align="center">
   <img src="https://badge.mediaplus.ma/darkblue/laafilal" width="450"></br>
